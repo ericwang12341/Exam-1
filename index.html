@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam 1</title>
+
+    <style>
+      body {
+        background: darkolivegreen;
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Eric Wang</h1>
+    <h2>Declining Balance Depreciation</h2>
+
+    <div>
+      <label for="cost_of_assets"> Cost of Asset </label>
+      <input type="number" id="cost_of_assets" name="cost_of_assets" />
+    </div>
+
+    <br />
+    <div>
+      <label for="salvage_value"> Salvage Value </label>
+      <input type="text" id="salvage_value" name="salvage_value" />
+    </div>
+
+    <br />
+    <div>
+      <label>
+        <input type="radio" name="number" value="150%" id="150%" />
+        150%
+      </label>
+      <label>
+        <input type="radio" name="number" value="200%" id="200%" />
+        200%
+      </label>
+    </div>
+    <br />
+    <div>
+      <label for="useful_life"> Useful Life </label>
+      <select>
+        <option value="">--Please Select--</option>
+        <option value="1">3 years</option>
+        <option value="2">5 years</option>
+        <option value="3">7 years</option>
+        <option value="4">15 years</option>
+      </select>
+    </div>
+
+    <br />
+    <div>
+      <label for="asset_disposed">
+        <input type="checkbox" name="asset_disposed" id="asset_disposed" />
+        The Asset was Disposed.
+      </label>
+    </div>
+
+    <div>
+      <br />
+      <label for="details"> Details </label>
+      <br />
+      <br />
+      <textarea rows="5" cols="50"></textarea>
+    </div>
+  </body>
+</html>
